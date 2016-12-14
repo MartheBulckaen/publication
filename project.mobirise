@@ -21,7 +21,7 @@
       }
     },
     "versionFirst": "3.9.2",
-    "uniqCompNum": 2,
+    "uniqCompNum": 5,
     "versionPublish": "3.9.2",
     "publishType": "github",
     "publishPath": "file:///Users/Marthe/Desktop/beeldbank.%20portfolio/lokaalmobirise"
@@ -136,8 +136,8 @@
           "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
           "_styles": {
             ".mbr-section-title SPAN": {
-              "font-family": "'Open Sans', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
+              "font-family": "'Montserrat', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
               "color": "#ffffff",
               "text-align": "center",
               "font-size": "60px"
@@ -151,9 +151,9 @@
             ".mbr-section-lead B": {
               "font-size": "15px",
               "text-align": "left",
-              "font-family": "'Open Sans Condensed', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700",
-              "color": "#029b7b"
+              "font-family": "'Montserrat', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+              "color": "#00a885"
             }
           },
           "_anchor": "header1-1",
@@ -204,8 +204,8 @@
           ],
           "_name": "gallery3",
           "_params": {
-            "paddingTop": 1,
-            "paddingBottom": 1,
+            "paddingTop": "2",
+            "paddingBottom": "2",
             "images": [
               {
                 "tags": "Awesome",
@@ -245,55 +245,35 @@
                 "thumb": "@PROJECT_PATH@/assets/images/079-2000x1500-44-2000x1500-34.jpg",
                 "image": "@PROJECT_PATH@/assets/images/079-2000x1500-44.jpg",
                 "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Awesome",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dsc01723-2000x1500-28-2000x1500-43.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dsc01723-2000x1500-28.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Awesome",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dsc01819-2000x1500-32-2000x1500-58.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dsc01819-2000x1500-32.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Awesome",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dsc01932-2000x1406-58-2000x1406-25.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dsc01932-2000x1406-58.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Awesome",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dsc01931-2000x1445-89-2000x1445-12.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dsc01931-2000x1445-89.jpg",
-                "caption": "Type caption here",
                 "active": true
+              },
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/amerika-147-2000x1500-11-2000x1500-55.jpg",
+                "image": "@PROJECT_PATH@/assets/images/amerika-147-2000x1500-11.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc01382-2000x1500-85-2000x1500-38.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc01382-2000x1500-85.jpg",
+                "caption": "Type caption here",
+                "active": false
               }
             ],
-            "spacing": "2",
+            "spacing": "1",
             "showText": false,
             "filter": false,
             "bgColor": "#000000",
             "filterBgColor": true,
-            "fullWidth": true,
+            "fullWidth": false,
             "showBullets": true
           },
           "_anchor": "gallery3-0",
@@ -331,6 +311,123 @@
           "title": "VIDEO BACKGROUND",
           "text": "Intro with background video and color overlay. Text and buttons are aligned to right. Mobirise helps you cut down development time by providing you with a flexible website editor with a drag and drop interface.",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\">DOWNLOAD FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-warning\" href=\"https://mobirise.com\">DOWNLOAD FOR MAC</a>"
+        },
+        {
+          "_inherit": "testimonials1",
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#efefef"
+            },
+            ".mbr-author-name": {
+              "color": "#ccc"
+            },
+            ".card-block P": {
+              "text-align": "center"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "testimonials3",
+          "testimonial": [
+            {
+              "text": "<p>I must see new things and investigate them. I want to taste dark water and see crackling trees and wild winds.\n</p><p>—Egon Shiele—</p><p>\n\n\nOm m’n visie op mijn werk te kunnen verwoorden heb ik deze uitspraak van Egon Schiele gebruikt. Vooral dan de eerste zin verteld hoe ik mijn inspiratie vind. \nHet is interessant nieuwe dingen te ontdekken en deze te gebruiken in je werk, als het ware te ‘stelen met je ogen’. Ik hou van dingen die niet schreeuwen om aandacht maar precies datgene weergeven wat nodig is om ze te verstaan. \nIn mijn opleiding tot grafisch ontwerp werken we vooral aan de hand van opdrachten. Toch is het een vanzelfsprekendheid om deze opdracht naar je eigen hand te gaan zetten en er een stukje van jezelf in te steken, maar enkel wat je weet is niet genoeg, daarom is blijven zoeken en ‘onderzoeken’ een must.\n</p>",
+              "media": {
+                "image": {
+                  "src": "@THEME_PATH@/components/_images/face3.jpg",
+                  "class": "img-circle",
+                  "height": 160,
+                  "width": 160,
+                  "active": true
+                }
+              },
+              "authorName": "Marthe B.",
+              "authorBio": "User"
+            }
+          ],
+          "_anchor": "testimonials3-2",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "count": "1",
+            "showImages": false,
+            "showName": true,
+            "showBio": false,
+            "bgImageRadio": true,
+            "parallax": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/amerika-093-2000x1500-15.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showSubtitle": false
+          },
+          "title": "TO SEE WITH YOUR EYES",
+          "subtitle": "Shape your future web project with sharp design and refine coded functions."
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "gallery1",
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "images": [
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/screen-shot-2016-12-08-at-14-2000x1250-10-2000x1250-99.png",
+                "image": "@PROJECT_PATH@/assets/images/screen-shot-2016-12-08-at-14-2000x1250-10.png",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/screen-shot-2016-12-08-at-16-2000x1250-94-2000x1250-78.png",
+                "image": "@PROJECT_PATH@/assets/images/screen-shot-2016-12-08-at-16-2000x1250-94.png",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Creative",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/screen-shot-2016-12-08-at-16-2000x1250-62-2000x1250-85.png",
+                "image": "@PROJECT_PATH@/assets/images/screen-shot-2016-12-08-at-16-2000x1250-62.png",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/screen-shot-2016-12-08-at-16-2000x1250-0-2000x1250-24.png",
+                "image": "@PROJECT_PATH@/assets/images/screen-shot-2016-12-08-at-16-2000x1250-0.png",
+                "caption": "Type caption here",
+                "active": true
+              }
+            ],
+            "spacing": "0",
+            "showText": false,
+            "filter": false,
+            "bgColor": "#FFFFFF",
+            "filterBgColor": false,
+            "fullWidth": false,
+            "showBullets": true
+          },
+          "_anchor": "gallery1-4",
+          "articleLayout": false,
+          "allItem": "All"
         }
       ]
     }

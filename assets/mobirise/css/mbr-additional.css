@@ -1,7 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Oswald:400,300,700);
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
-@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700);
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Lora:400,700);
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,300,700);
 
@@ -487,7 +486,7 @@ h6,
   background-color: #ffffff;
 }
 #header1-1 .mbr-section-title SPAN {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: #ffffff;
   text-align: center;
   font-size: 60px;
@@ -500,6 +499,15 @@ h6,
 #header1-1 .mbr-section-lead B {
   font-size: 15px;
   text-align: left;
-  font-family: 'Open Sans Condensed', sans-serif;
-  color: #029b7b;
+  font-family: 'Montserrat', sans-serif;
+  color: #00a885;
+}
+#testimonials3-2 .mbr-section-title {
+  color: #efefef;
+}
+#testimonials3-2 .mbr-author-name {
+  color: #ccc;
+}
+#testimonials3-2 .card-block P {
+  text-align: center;
 }
