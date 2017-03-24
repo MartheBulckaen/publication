@@ -137,7 +137,7 @@
               "font-family": "'Montserrat', sans-serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
               "color": "#ffffff",
-              "text-align": "center",
+              "text-align": "left",
               "font-size": "60px"
             },
             ".mbr-section-lead": {
